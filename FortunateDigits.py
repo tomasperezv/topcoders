@@ -1,60 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Problem Statement
-    	Lecette thinks that 5 and 8 are fortunate digits. A positive integer is called a fortunate number if it has only fortunate digits in its decimal representation. 
-
-
-
-You are given three int[]s a, b and c. Return that number of fortunate numbers which can be expressed as a[i] + b[j] + c[k] for some indices i, j and k. Note that you must not count the same fortunate number more than once.
- 
-Definition
-    	
-Class:	FortunateNumbers
-Method:	getFortunate
-Parameters:	int[], int[], int[]
-Returns:	int
-Method signature:	int getFortunate(int[] a, int[] b, int[] c)
-(be sure your method is public)
-    
- 
-Constraints
--	a, b and c will each contain between 1 and 50 elements, inclusive.
--	Each element of a, b and c will be between 1 and 30,000, inclusive.
- 
-Examples
-0)	
-    	
-{ 1, 10, 100 }
-{ 3, 53 }
-{ 4, 54 }
-Returns: 2
-We have two fortunate numbers 8 = 1 + 3 + 4 and 58 = 1 + 3 + 54. 58 can be also expressed as 1 + 53 + 4, but you must not count 58 twice.
-1)	
-    	
-{ 47 }
-{ 500 }
-{ 33 }
-Returns: 0
-580 is not a fortunate number.
-2)	
-    	
-{ 100, 1, 10, 100, 1, 1 }
-{ 3, 53, 53, 53, 53, 53, 53 }
-{ 4, 54, 4, 54, 4, 54 }
-Returns: 2
-3)	
-    	
-{ 500, 800 }
-{ 50, 80 }
-{ 5, 8 }
-Returns: 8
-4)	
-    	
-{ 30000, 26264 }
-{ 30000, 29294 }
-{ 30000, 29594 }
-Returns: 3
-
+@see http://community.topcoder.com/stat?c=problem_statement&pm=11509
 '''
 class FortunateDigits():
 

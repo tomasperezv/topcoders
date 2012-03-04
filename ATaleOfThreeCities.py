@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Problem statement
 @see http://community.topcoder.com/stat?c=problem_statement&pm=3543
-
-As a result of ever increasing traffic jams, subway transportation in big cities has become a must. A train can actually take you from your home to your office faster than a car can. But what happens if you have your office in another city? In this problem we consider three different cities: A, B and C. Each of these cities has its own subway transportation system and you can go from a station to any other in the same city without having to leave the underground. A big project is now underway, and the goal is to merge the subway lines such that transportation between these cities becomes available soon. In order to achieve this, it was decided that two tunnels would be constructed, each of them connecting two subway stations in two different cities. This has to be done at a minimal cost, so it is important which subway stations are chosen. Also consider that the only factor in determining the cost is the distance between the two subway stations connected by a tunnel. 
-
 '''
 import math
 import TopCoder

@@ -1,58 +1,6 @@
 # -*- coding: utf-8 -*-
 '''   
-Given a list of points return how many unique isoceles right triangles use 3 of those points as corners. An isoceles right triangle has 2 sides of equal length and a single right angle (90 degrees). Two isoceles triangles are unique if they differ by at least one point.
-Definition
-    
-Class:
-Isoceles
-Method:
-howMany
-Parameters:
-int[], int[]
-Returns:
-int
-Method signature:
-int howMany(int[] xs, int[] ys)
-(be sure your method is public)
-    
-
-Notes
--
-xs[K] is the x-coordinate of the Kth point and ys[K] is the y-coordinate of the Kth point
-Constraints
--
-xs will contain between 3 and 50 elements inclusive
--
-ys will contain between 3 and 50 elements inclusive
--
-xs and ys will contain the same number of elements
--
-Each element of xs will be between -1000000 and 1000000 inclusive
--
-Each element of ys will be between -1000000 and 1000000 inclusive
--
-There will be no duplicate points
-Examples
-0)
-
-    
-{0,1,2}
-{0,10,0}
-Returns: 0
-
-1)
-
-    
-{0,0,5,5}
-{0,5,0,5}
-Returns: 4
-There are four right isoceles triangles in a square.
-2)
-
-    
-{-1000000,1000000,0}
-{0,0,1000000}
-Returns: 1
+@see http://community.topcoder.com/stat?c=problem_statement&pm=1169
 '''
 import math
 

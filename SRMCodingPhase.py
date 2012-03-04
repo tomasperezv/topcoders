@@ -1,25 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Problem statement
 @see http://community.topcoder.com/stat?c=problem_statement&pm=11381
-
-
-Mr. Dengklek introduced you to an online programming contest called SRM (Special Round Match)! 
-
-
-
-You are now in the coding phase of the contest. There are 3 problems in the contest. You have practiced a lot before in practice rooms, so you are sure that you can solve the first problem in skills[0] minutes, the second problem in skills[1] minutes and the third problem is skills[2] minutes. 
-
-You have exactly 75 minutes to solve the problems. Before submitting a solution to a problem, you must first open the problem. If you submit a solution to a problem t minutes after you open the problem, you will receive:
-(points[0] - 2t) points for the first problem, or
-(points[1] - 4t) points for the second problem, or
-(points[2] - 8t) points for the third problem.
-
-In your strategy, you only submit a solution to a problem after you solve the problem. If you don't submit a solution to a problem, you will receive zero points for the problem. 
-
-It is well-known that luck plays an important role in a contest. A fortune-teller told you that you have luck points of luck. You may use these points to decrease the amount of time you need to solve the problems, in minutes. Of course, you don't have to use all the points. Each point is worth one minute per problem. So, if you initially can solve a problem in t minutes, by using x points of luck (where x is a positive integer and 0 < x < t), you can solve the problem in (t - x) minutes (it is impossible to use t or more points of luck on the problem). 
-
-Arrange your strategy in this coding phase. Return the maximum total score you can achieve in this coding phase.
 '''
 
 import TopCoder

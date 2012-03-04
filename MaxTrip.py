@@ -1,46 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Problem Statement: Max Trip
-    	You have won a collection of tickets on luxury cruisers. Each ticket can be used only once, but can be used in either direction between the 2 cities printed on the ticket. Your prize gives you free airfare to any city to start your cruising, and free airfare back home from wherever you finish your cruising.
-You love to sail and don't want to waste any of your free tickets. How many additional tickets would you have to buy so that your cruise can use all of your tickets?
-
-Create a class MaxTrip that contains a method minBuy that is given Strings portA and portB and that returns the smallest number of additional tickets that can be purchased to allow you to use all of your free tickets. Each position in portA and portB corresponds to one free ticket, allowing you to travel either way between the cities denoted by the corresponding character in portA and in portB.
-
- 
-Definition
-    	
-Class:	MaxTrip
-Method:	minBuy
-Parameters:	String, String
-Returns:	int
-Method signature:	int minBuy(String portA, String portB)
-(be sure your method is public)
-    
- 
-Constraints
--	portA will contain between 1 and 50 characters, inclusive.
--	portB will contain the same number of characters as portA.
--	portA and portB will contain only uppercase letters ('A'-'Z').
- 
-Examples
-0)	
-    	
-"AAX"
-"CBY"
-Returns: 1
-You have 3 free tickets, one between A and C, one between A and B, and one between X and Y. You can use all of these tickets if you purchase one additional ticket. One way is to buy a ticket between C and X. Now your cruise could start at B, go from B to A using your 2nd free ticket, then from A to C using your first free ticket, then from C to X using your purchased ticket, and finally from X to Y using your 3rd free ticket.
-1)	
-    	
-"AAAAA"
-"CBXYQ"
-Returns: 2
-One plan is to cruise from C to A to B to Q (using a purchased ticket) to A to X to A (using a purchased ticket) to Y.
-2)	
-    	
-"AB"
-"AB"
-Returns: 1
-Your 2 free tickets are circle cruises that end at the same port that they debark from. To use both of them, you will need to purchase a ticket that goes between A and B.
+@see http://community.topcoder.com/stat?c=problem_statement&pm=4677
 '''
 class MaxTrip():
 

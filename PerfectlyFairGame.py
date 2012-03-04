@@ -1,18 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Problem statement
 @see http://community.topcoder.com/stat?c=problem_statement&pm=11530
-
-    	
-Dick and Jane are playing a simple game with darts and a board displaying a grid of squares, represented by the String[] board. Each square contains a number from 0 to 9. They each take turns (starting with Dick) tossing a dart at the board. They earn as many points as the number they hit, or 0 points if they miss the board. After each has thrown darts times, the player with the most points wins. If the points end up tied, a fair coin is flipped to determine the winner.
-
-
-
-Dick and Jane are equally skilled players, but they are not perfect. If they are aiming at a particular grid square, they actually have a uniform chance of hitting any number in the 3x3 block surrounding it. (They will never aim at a grid square on the edge of the board, since missing is counterproductive.)
-
-
-
-Both players play to maximize their odds of winning. Calculate the chance that Jane will win. Since the game is fair and the players are equally skilled, this shouldn't be too hard... right?
 '''
 
 import TopCoder

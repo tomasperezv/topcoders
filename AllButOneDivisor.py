@@ -1,20 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Problem statement
 @see http://community.topcoder.com/stat?c=problem_statement&pm=11415
-
-You are given a int[] divisors containing K elements. Find a positive integer n such that exactly K-1 elements of divisors are exact divisors of n. 
-If there are several such numbers n, return the smallest possible one. If no such number n exists, return -1 instead.
- 
-Definition
-    	
-Class:	AllButOneDivisor
-Method:	getMinimum
-Parameters:	int[]
-Returns:	int
-Method signature:	int getMinimum(int[] divisors)
-(be sure your method is public)
-
 '''
 import TopCoder
 

@@ -1,15 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Problem statement
 @see http://community.topcoder.com/stat?c=problem_statement&pm=11146
-
-A sequence of integers a[0], a[1], ..., a[N-1], where N >= 3, is called an arithmetic progression if the difference between any two successive terms in the sequence is a constant. More precisely, it is an arithmetic progression if a[i] - a[i-1] = a[i+1] - a[i] for every integer i such that 0 < i < N-1. 
-
-Sasha and Pasha are students sharing the same room. Once, when Pasha had left the room, Sasha was in a good mood. So he took a piece of chalk and wrote an arithmetic progression on the blackboard. The progression consisted of at least 4 elements, all of which were positive integers. Then Sasha went to class, and Pasha came back. 
-
-Pasha is a very nice person, but there's one problem with him -- he's frightened of even numbers! So, when he returned, he decided to make all the numbers on the board odd. He did this by repeatedly finding an arbitrary even number X, erasing it, and writing X/2 in its place. He continued to perform this step until no even numbers remained. 
-
-Your task is to help Sasha restore the initial progression. You will be given a int[] seq, where the i-th element is the i-th number in the sequence written on the blackboard after Pasha's actions. Return an int[] whose i-th element is the i-th number in a sequence that Sasha could have originally written on the blackboard. The constraints will ensure that at least one such sequence exists. If there are several such sequences, choose the one among them whose int[] representation is lexicographically smallest.
 '''
 import itertools
 import TopCoder

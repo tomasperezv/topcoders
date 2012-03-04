@@ -1,18 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Problem statement
-
-Given a string of parentheses, you must turn it into a well formed string by inserting as few parentheses as possible, at any position (you cannot delete or change any of the existing parentheses).
-
-A well formed string of parentheses is defined by the following rules:
-
-	1) The empty string is well formed.
-	2) If s is a well formed string, (s) is a well formed string.
-	3) If s and t are well formed strings, their concatenation st is a well formed string.
-
-As examples, "(()())", "" and "(())()" are well formed strings and "())(", "()(" and ")" are malformed strings.
-Given a String par of parentheses, return the minimum number of parentheses that need to be inserted to make it into a well formed string.
-
+@see http://community.topcoder.com/stat?c=problem_statement&pm=10943
 '''
 import TopCoder
 
